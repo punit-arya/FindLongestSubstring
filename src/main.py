@@ -1,3 +1,6 @@
+"""
+Find longest contiguous substring which has even number of characters inside it.
+"""
 def solution(S):
     # Implement your solution here
     pass
@@ -40,5 +43,5 @@ if __name__ == "__main__":
     print("solution('ab'):", solution("ab"))
     print("solution('aa'):", solution("aa"))
     print("solution('abcdabcd'):", solution("abcdabcd"))
-    print("solution('baaadadabcc'):", solution("baaadadabcc"))
+    print("solution('abaaadaadabcc'):", solution("abaaadaadabcc"))
     print("solution('abaaadadabcca'):", solution("abaaadadabcca"))
